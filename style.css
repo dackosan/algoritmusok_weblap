@@ -1,0 +1,53 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: grey;
+  font-weight: unset;
+}
+
+.bigDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.information {
+  border: lightblue solid 2px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.timeMemory {
+  border: rgb(223, 179, 97) solid 2px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.timeH {
+  background-color: rgb(255, 242, 219);
+  margin: 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+}
+
+.infH {
+  background-color: rgb(225, 247, 255);
+  margin: 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+}
+
+.wrap {
+  margin: 15px;
+}
+
+li {
+  margin: 5px;
+}
